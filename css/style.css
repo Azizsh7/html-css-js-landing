@@ -2,7 +2,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #222;
+}
+section {
+    margin: 0 calc(10.6vw - 16px) 160px;
+
 }
 .logo {
     width: calc(8.8vw + 182px);
+    margin-top: 30px;
+    margin-bottom: 85px;
+}
+.course_info {
+    display: flex;
+    gap: 30px 161px;
+}
+.course_data{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+
+font-size: 21px;
+line-height: 140%; /* 29.4px */
+}
+.value{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.html_css_js h1 {
+    font-family: "Chava";
+    font-size:  80px;
+    margin-bottom: 40px;
+    line-height: 110%;
+    margin-top: 76px;
+    /* font-size: calc(49vw + 147px); */
+}
+.html_css_js p {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    max-width: 1030px;
+    margin-bottom: 20px;
+    
+
+}
+.btn_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+.primery {
+    width: 328px ;
+    border-radius: 12px;
+    background-color: #6e3aba;
+    padding: 20px 0;
+    border: 2px solid #6e3aba ;
+    color: white;
+    cursor: pointer;
+    gap: 10px;
+}
+.primery:hover {
+    background-color: white;
+    color: #6e3aba;
+}
+.secondary {
+    width: 328px ;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: transparent;
+    border: 2px solid #6e3aba;
+    color: #6e3aba;
+    cursor: pointer;
+}
+.secondary:hover{
+    background-color: #6e3aba;
+    color: white;
+
+}
+.bg_img {
+    background-image: url(../img/html-css-js.svg);
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    
 }
