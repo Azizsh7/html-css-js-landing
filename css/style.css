@@ -104,17 +104,28 @@ font-weight: 700;
 letter-spacing: 1.56px;
 text-transform: uppercase;
 margin-bottom: 57px;
+flex-direction: row;
+
 }
 .timer_container {
     display: flex;
     gap: 85px;
     margin-bottom: 57px;
+    
+}
+.timer_card{
+
+
+
+
 }
 .timer_value {
     color: #2F1D4E;
 font-family: "Chava";
 font-size: 174px;
 line-height: 107.5%;
+font-size:calc(18.14vw + 18.78px);
+
 }
 .timer_text {
 color: #2F1D4E;
