@@ -5,12 +5,12 @@
     color: #222;
 }
 section {
-    margin: 0 calc(10.6vw - 16px) 160px;
+    padding: 0 calc(10.6vw - 16px) 160px;
 
 }
 .logo {
     width: calc(8.8vw + 182px);
-    margin-top: 30px;
+    margin-top: 37px;
     margin-bottom: 85px;
 }
 .course_info {
@@ -71,7 +71,7 @@ line-height: 140%; /* 29.4px */
     width: 328px ;
     border-radius: 12px;
     padding: 20px 0;
-    background-color: transparent;
+    background-color: white;
     border: 2px solid #6e3aba;
     color: #6e3aba;
     cursor: pointer;
@@ -85,5 +85,42 @@ line-height: 140%; /* 29.4px */
     background-image: url(../img/html-css-js.svg);
     background-repeat: no-repeat;
     background-position: top 121px right 58px;
+    background-size: 30vw;
     
+}
+.timer{
+    background-color: #6e3aba;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.timer h2{
+    color: ( #FFF);
+font-size: 52px;
+font-weight: 700;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+margin-bottom: 57px;
+}
+.timer_container {
+    display: flex;
+    gap: 85px;
+    margin-bottom: 57px;
+}
+.timer_value {
+    color: #2F1D4E;
+font-family: "Chava";
+font-size: 174px;
+line-height: 107.5%;
+}
+.timer_text {
+color: #2F1D4E;
+text-align: center;
+font-size: 27px;
+font-weight: 500;
+text-transform: uppercase;
+margin-left: 18px;
 }
